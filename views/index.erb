@@ -1,0 +1,40 @@
+<!-- USE .erb NOT .html -->
+<!DOCTYPE html>
+<html>
+  <head><!--Brain Html -->
+    <title>Style Guru</title>
+  </head>
+  <body>
+    <h1> Welcome to your personal Style Guru!</h1>
+    <img src="http://www.functionalmovementgroup.com/wp-content/uploads/2015/02/love-guru1.jpg">
+    <form method="POST" action="/results">
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+    <p>Shirts:</p>
+     <input type ="radio" name="typeshirt" value= "<img src=<%=whiteshirt%>>"checked><img src=<%=whiteshirt%>>
+      <br>
+      <input type ="radio" name="typeshirt" value="Blue">Blue
+      <br>
+      <input type ="radio" name="typeshirt" value="White">White
+       <br>
+    <p>Pants:</p>
+      <input type ="radio" name="typepants" value="Denim" checked>Blue Jeans
+      <br>
+      <input type ="radio" name="typepants" value="Black">Black Jeans
+      <br>
+      <input type ="radio" name="typepants" value="Kaky">Kaky Pants
+    <br>
+    <p>Shoes:</p>
+    <input type ="radio" name="typeshoes" value="Nike" checked>Nike
+      <br>
+      <input type ="radio" name="typeshoes" value="Adidas">Adidas
+      <br>
+      <input type ="radio" name="typeshoes" value="Sperry">Sperry
+      <br>
+      <br>
+     <input type ="submit" value="submit">
+    </form>
+    
+    
+    
+  </body>
+</html>
