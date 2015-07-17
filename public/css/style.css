@@ -1,4 +1,46 @@
+.frontpage
 img{
   height: 20%;
   width: 20%;
 }
+
+h1{
+  font-size:55px;
+  color: DarkSlateBlue;
+  font-family: Lucida Console, serif;
+  text-shadow: 2px 2px #FFFFFF;
+  font-weight:bold;
+  border:2px solid ivory;
+  background-color: #99CCFF;
+}
+h2{
+  font-size:40px;
+  font-family:Arial;
+  border:2px solid ivory;
+  text-shadow: 1px 1px gray;
+}
+body{
+ text-align: center;
+ background-color:#AEC6CF;
+ color:#FF33CC;
+ font-size:35px;
+ font-family:Arial;
+  cursor:pointer;
+  
+/*     cursor: url("../images/cursor.png"), auto; */
+   
+}
+.music{
+  opacity: 0;
+    
+}
+.results
+img{
+  height: 300px;
+  width: 270px;
+}
+
+h1{
+ font-size:50px;
+}
+

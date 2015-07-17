@@ -9,8 +9,13 @@ class MyApp < Sinatra::Base
   end
   post '/results' do 
     @typeshirt=params[:typeshirt]
+    @ownshirt=params[:shirt]
     @typepants=params[:typepants]
+    @ownpants=params[:pants]
     @typeshoes=params[:typeshoes]
+    @ownshoes=params[:shoes]
+    @typeother=params[:typeother]
+    @ownother=params[:other]
     erb :results
   end
 end

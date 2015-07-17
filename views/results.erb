@@ -5,12 +5,19 @@
     <title>Style Guru</title>
   </head>
   <body>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <div class="results">
     <h1> This is what I've put together for you</h1>
-    <h2><%=@typeshirt%></h2>
-    <br>
-    <h3><%=@typepants%></h3>
-    <br>
-    <h4><%=@typeshoes%></h4>
+   
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+      <div class="align">
+      <p><%=@typeother%><img src=<%=@ownother%>></p>  
+    <p><%=@typeshirt%><img src=<%=@ownshirt%>></p>
+<p><%=@typepants%><img src=<%=@ownpants%>></p>
+      <p><%=@typeshoes%><img src=<%=@ownshoes%>></p>
+      </div>
+      <h2>Thanks for using our app! Hope you found a nice outfit!</h2>
+     <iframe src="//giphy.com/embed/OFcP2ojNIAkec" width="380" height="338" frameBorder="0" style="max-width: 100%" class="giphy-embed" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+    </div>
+<!--     <canvas id="draw" style="cursor: url(images/cursornew.cur)"> -->
   </body>
 </html>

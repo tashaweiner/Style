@@ -5,36 +5,69 @@
     <title>Style Guru</title>
   </head>
   <body>
+  
+    <div class="frontpage">
     <h1> Welcome to your personal Style Guru!</h1>
-    <img src="http://www.functionalmovementgroup.com/wp-content/uploads/2015/02/love-guru1.jpg">
-    <form method="POST" action="/results">
+
+<iframe src="//giphy.com/embed/10m9oXELLlM1OM" width="480" height="270" frameBorder="0" style="max-width: 100%" class="giphy-embed" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+     <form method="POST" action="/results">
+       
    <link rel="stylesheet" type="text/css" href="css/style.css">
+      <h2> If you would like to upload an image from the web right click on the image copy the "image URL" and post it on the clothing section input. If you want to upload an image of your own, please pass it through <a href="http://www.tinypic.com">tinypic.com</a> and copy the url of the pic then imput it.</h2>
+
+       <p>Other:</p>
+      <h3>
+<input type ="radio" name="typeother" value= "">OtherURL<input type="text" name="other">
+      <input type ="radio" name="typeother" value= "<img src=<%=hat1%>>" checked><img src=<%=hat1%>>
+   
+        <input type ="radio" name="typeother" value= "<img src=<%=necklace1%>>" checked><img src=<%=necklace1%>>
+      
+      <input type ="radio" name="typeother" value= "<img src=<%=hat2%>>" checked><img src=<%=hat2%>>
+       </h3>
+       
     <p>Shirts:</p>
-     <input type ="radio" name="typeshirt" value= "<img src=<%=whiteshirt%>>"checked><img src=<%=whiteshirt%>>
-      <br>
-      <input type ="radio" name="typeshirt" value="Blue">Blue
-      <br>
-      <input type ="radio" name="typeshirt" value="White">White
-       <br>
+      <h3>
+<input type ="radio" name="typeshirt" value= "">ShirtURL<input type="text" name="shirt">
+      <input type ="radio" name="typeshirt" value= "<img src=<%=whiteshirt1%>>" checked><img src=<%=whiteshirt1%>>
+   
+     <input type ="radio" name="typeshirt" value= "<img src=<%=denimshirt%>>" checked><img src=<%=denimshirt%>>
+      
+      <input type ="radio" name="typeshirt" value= "<img src=<%=flannel%>>" checked><img src=<%=flannel%>>
+       </h3>
+       
     <p>Pants:</p>
-      <input type ="radio" name="typepants" value="Denim" checked>Blue Jeans
-      <br>
-      <input type ="radio" name="typepants" value="Black">Black Jeans
-      <br>
-      <input type ="radio" name="typepants" value="Kaky">Kaky Pants
-    <br>
+     <h4>
+       <input type ="radio" name="typepants" value= "">PantsURL<input type="text" name="pants">
+      <input type ="radio" name="typepants" value= "<img src=<%=camopants%>>"checked><img src=<%=camopants%>>
+      
+       <input type ="radio" name="typepants" value= "<img src=<%=blackjeans%>>"checked><img src=<%=blackjeans%>>
+      
+       <input type ="radio" name="typepants" value= "<img src=<%=bluejeans%>>"checked><img src=<%=bluejeans%>>
+      </h4>
     <p>Shoes:</p>
-    <input type ="radio" name="typeshoes" value="Nike" checked>Nike
-      <br>
-      <input type ="radio" name="typeshoes" value="Adidas">Adidas
-      <br>
-      <input type ="radio" name="typeshoes" value="Sperry">Sperry
-      <br>
+     <h5>
+       <input type ="radio" name="typeshoes" value= "">ShoesURL<input type="text" name="shoes">
+       <input type ="radio" name="typeshoes" value= "<img src=<%=boots%>>"checked><img src=<%=boots%>>
+      
+       <input type ="radio" name="typeshoes" value= "<img src=<%=converse%>>"checked><img src=<%=converse%>>
+      
+       <input type ="radio" name="typeshoes" value= "<img src=<%=sandals%>>"checked><img src=<%=sandals%>>
+      </h5>
       <br>
      <input type ="submit" value="submit">
+      
     </form>
+    </div>
     
     
+     <div class="music">
+    <audio controls autoplay>
+  <source src="this is me.ogg" type="audio/ogg">
+  <source src="/images/06 This Is Me.m4a" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+    </div>
     
   </body>
 </html>
